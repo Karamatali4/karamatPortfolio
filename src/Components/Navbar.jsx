@@ -24,8 +24,12 @@ function Navbar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><NavLink to="/">Homepage</NavLink></li> 
-                            <li><NavLink to="/about">About</NavLink></li> 
+                            <li><NavLink to="/">Home</NavLink></li>
+                            <li><NavLink to="/education">Education</NavLink></li>
+                            <li><NavLink to="/expereince">Expereince</NavLink></li>
+                            <li><NavLink to="/skill">Skill</NavLink></li>
+                            <li><NavLink to="/project">Project</NavLink></li>
+                            <li><NavLink to="/about">About</NavLink></li>
                             <li><NavLink to="/contact">Contact us</NavLink></li>
                         </ul>
                     </div>
@@ -34,9 +38,9 @@ function Navbar() {
                     <NavLink className="btn btn-ghost text-xl" to={"/"}>KARAMAT ALI</NavLink>
                 </div>
                 <div className="navbar-end">
-                    
-                <NavLink className="btn btn-ghost" to={"/contact"}>Contact</NavLink>
-                    
+
+                    <NavLink className="btn btn-ghost" to={"/contact"}>Contact</NavLink>
+
                 </div>
             </div>
         </>
