@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function Navbar() {
     return (
         <>
-            <div className="navbar bg-base-100">
+            <div className="navbar lg:max-w-[75rem] lg:m-auto lg:rounded-b-2xl bg-[#1B1B1B] ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -26,7 +26,7 @@ function Navbar() {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             <li><NavLink to="/">Home</NavLink></li>
                             <li><NavLink to="/education">Education</NavLink></li>
-                            <li><NavLink to="/expereince">Expereince</NavLink></li>
+                            <li><NavLink to="/experience">Expereince</NavLink></li>
                             <li><NavLink to="/skill">Skill</NavLink></li>
                             <li><NavLink to="/project">Project</NavLink></li>
                             <li><NavLink to="/about">About</NavLink></li>
