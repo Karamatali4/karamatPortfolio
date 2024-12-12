@@ -1,13 +1,17 @@
 import React from 'react'
 import mypic from "../assets/picture.jpg";
+import SocailmediaBtn from '../Components/SocailmediaBtn';
 function Home() {
   return (
     // h-[52rem]
     <>
-      <div className="container   max-w-[75rem] m-auto flex flex-col justify-evenly justify-items-center lg:flex-row  lg:justify-center lg:items-center pt-5 gap-10 ">
+      <div className="container   max-w-[75rem] m-auto lg:flex lg:flex-col justify-center items-center">
 
-        {/* left side */}
-        <div className="left lg:w-[60%] flex flex-col items-center justify-items-center justify-center gap-6 lg:gap-10 text-center ">
+
+    <section className='flex flex-col justify-evenly justify-items-center lg:flex-row  lg:justify-center lg:items-center pt-5 gap-10'>
+
+ {/* left side */}
+ <div className="left lg:w-[60%] flex flex-col items-center justify-items-center justify-center gap-6 lg:gap-10 text-center ">
           <h2 className='text-[#FFFFFF] text-6xl'>KARAMAT ALI</h2>
           <p className='text-[#9C9C9C] text-xl'>Spiring MERN Stack Developer skilled in MongoDB, Express.js, React.js, and Node.js, seeking growth opportunities.
             Dedicated to delivering high-quality solutions and enhancing user experiences. </p>
@@ -22,6 +26,11 @@ function Home() {
 
 ' alt="profile picture" />
         </div>
+    </section>
+       
+
+        <SocailmediaBtn/>
+
       </div>
     </>
   )
