@@ -8,7 +8,7 @@ function Home() {
       <div className="container   max-w-[75rem] m-auto lg:flex lg:flex-col justify-center items-center">
 
 
-    <section className='flex flex-col justify-evenly justify-items-center lg:flex-row  lg:justify-center lg:items-center pt-5 gap-10'>
+    <section className='herosection flex flex-col justify-evenly justify-items-center lg:flex-row  lg:justify-center lg:items-center pt-5 gap-10'>
 
  {/* left side */}
  <div className="left lg:w-[60%] flex flex-col items-center justify-items-center justify-center gap-6 lg:gap-10 text-center ">
