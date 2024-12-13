@@ -240,11 +240,44 @@
 @media screen and (width: 1024px) and (height: 600px) { 
     
     .right{
-        img{
-            width: 300rem;
-        }
+        padding-right: 2rem;
     }
     .mediabtn{
         padding-bottom: 2rem;
+    }
+}
+
+
+/* Nest Hub Max*/
+@media screen and (width: 1280px) and (height: 800px) { 
+    
+    .herosection{
+        margin-top: 5rem;
+    }
+
+    .left{
+        p{
+            line-height: 3rem;
+        }
+        button{
+            padding-block: 0.8rem;
+            padding-inline: 3.3rem;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+    .right{
+        padding-right: 2rem;
+    }
+    .mediabtn{
+        padding-bottom: 2rem;
+
+        button{
+            padding-inline: 3rem;
+            padding-top: 1.3rem;
+           padding-bottom: 2.5rem;
+           font-weight: bolder;
+           font-size: large;
+        }
     }
 }
