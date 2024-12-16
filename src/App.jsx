@@ -11,6 +11,7 @@ import Education from './Pages/Education'
 import Skill from './Pages/Skill'
 import Experience from './Pages/Experience'
 import Project from './Pages/Project'
+import Certification from './Pages/Certification'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
           <Route path='/project' element={<Project/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/certificate' element={<Certification/>}/>
           <Route path='*' element={<ErrorPage/>}/>
         </Routes>
       </BrowserRouter>
