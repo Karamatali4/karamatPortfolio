@@ -29,34 +29,34 @@ function Certification() {
 
                 </section>
 
-<hr class="h-px my-8 bg-gray-500 bg-ghost border-0  dark:bg-gray-500 rounded-4xl"/>
+                <hr class="h-px my-8 bg-gray-500 bg-ghost border-0  dark:bg-gray-500 rounded-4xl" />
 
-{/* International javascript certification */}
-<section className='internationalcertificationsection flex flex-col items-center  gap-5 '>
+                {/* International javascript certification */}
+                <section className='internationalcertificationsection flex flex-col items-center  gap-5 '>
 
-{/* leftside */}
-<div className="leftside flex flex-col gap-10 mt-5">
-    <div className="box border-x-8 border-slate-600 p-3 rounded-lg">
-        <h2 className='text4xl font-bold'>International Javascript Certification</h2>
-    </div>
+                    {/* leftside */}
+                    <div className="leftside flex flex-col gap-10 mt-5">
+                        <div className="box border-x-8 border-slate-600 p-3 rounded-lg">
+                            <h2 className='text4xl font-bold'>International Javascript Certification</h2>
+                        </div>
 
-</div>
+                    </div>
 
-{/* rightside */}
-<div className="rightside">
-    <img src={internationalcertificate} className='rounded-md' alt="certificate" />
-</div>
-</section>
+                    {/* rightside */}
+                    <div className="rightside">
+                        <img src={internationalcertificate} className='rounded-md' alt="certificate" />
+                    </div>
+                </section>
 
-<hr class="h-px my-8 bg-gray-500 bg-ghost border-0  dark:bg-gray-500"/>
+                <hr class="h-px my-8 bg-gray-500 bg-ghost border-0  dark:bg-gray-500" />
 
 
-            {/* other certification */}
+                {/* other certification */}
                 <section className='certificationsection flex flex-col items-center lg:flex lg:flex-row lg:justify-evenly gap-5 mt-5'>
 
                     {/* leftside */}
                     <div className="leftside flex flex-col gap-10 mt-5">
-                        
+
 
                         <div className="box border-x-8 border-slate-600 p-3 rounded-lg">
                             <h2 className='text4xl font-bold'>Hadi E-Learning React js COURSE</h2>
