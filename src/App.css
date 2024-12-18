@@ -325,6 +325,7 @@ html{
         }
     }
 
+
     /* about section */
 .containerabout{
     margin-top: 4rem;
@@ -344,7 +345,7 @@ html{
 
 
 
-/* ******** About Page ********** */
+
 
 /* .aboutsection{
     .leftside{
@@ -365,3 +366,38 @@ html{
 
     }
 } */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* contact form page  */
+
+.custom-shape-divider-bottom-1734087681 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1734087681 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1734087681 .shape-fill {
+    fill: #5F10E0;
+}
+
