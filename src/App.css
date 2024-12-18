@@ -1,351 +1,428 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-html{
-    scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* iphone se */
-@media screen and (width: 375px) and (height: 667px) { 
-    
-    .mediabtn{
-        padding-bottom: 2rem;
-    }
+@media screen and (width: 375px) and (height: 667px) {
+  .mediabtn {
+    padding-bottom: 2rem;
+  }
 }
 
-@media screen and (width: 390px) and (height: 844px) { 
-    
-    .mediabtn{
-        padding-bottom: 2rem;
-    }
+@media screen and (width: 390px) and (height: 844px) {
+  .mediabtn {
+    padding-bottom: 2rem;
+  }
 }
 
 /* samsung glaxy S8+ */
-@media screen and (width: 360px) and (height: 740px) { 
-    
-    .mediabtn{
-        padding-bottom: 2rem;
-    }
+@media screen and (width: 360px) and (height: 740px) {
+  .mediabtn {
+    padding-bottom: 2rem;
+  }
 }
 
-
 /* ipad mini */
-@media screen and (width: 768px) and (height: 1024px) { 
-    
-    .herosection{
-        margin-top: 6rem;
-    }
-    .mediabtn{
-        margin-top: 3rem;
-        column-gap: 2rem;
+@media screen and (width: 768px) and (height: 1024px) {
+  .herosection {
+    margin-top: 6rem;
+  }
+  .mediabtn {
+    margin-top: 3rem;
+    column-gap: 2rem;
 
-        button{
-            padding-inline: 3rem;
-            padding-block: 1rem;
-        }
+    button {
+      padding-inline: 3rem;
+      padding-block: 1rem;
     }
+  }
+
+  /* experience page */
+  .containercertification {
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+  }
 }
 
 /* ipad air */
-@media screen and (width: 820px) and (height: 1180px) { 
-    
-    .herosection{
-        margin-top: 7rem;
+@media screen and (width: 820px) and (height: 1180px) {
+  .herosection {
+    margin-top: 7rem;
 
-        .left{
-            
-            button{
-                padding-block: 1rem;
-            }
-        }
-        .right{
-            margin-top: 5rem;
-        }
+    .left {
+      button {
+        padding-block: 1rem;
+      }
     }
-    .mediabtn{
-        margin-top: 3rem;
-        column-gap: 2rem;
-
-        button{
-            padding-inline: 3rem;
-            padding-block: 1rem;
-        }
+    .right {
+      margin-top: 5rem;
     }
+  }
+  .mediabtn {
+    margin-top: 3rem;
+    column-gap: 2rem;
 
+    button {
+      padding-inline: 3rem;
+      padding-block: 1rem;
+    }
+  }
 
+  /* experience page */
+  .containercertification {
+    margin-top: 5.5rem;
+    padding-block: 5rem;
+    border-radius: 0.2rem;
+  }
 
-    /* *******about section******* */
-
+  /* *******about section******* */
 }
 
-
-
-
 /* ipad pro */
-@media screen and (width: 1024px) and (height: 1366px) { 
-    
-    .herosection{
-        display: flex;
-        flex-direction: column;
-        margin-top: 7rem;
+@media screen and (width: 1024px) and (height: 1366px) {
+  .herosection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
 
-        .left{
-            row-gap: 4rem;
-            button{
-                padding-block: 1rem;
-            }
-            p{
-                line-height: 2.6rem;
-            }
-            h2{
-                font-size: 5rem;
-            }
-        }
-        .right{
-            margin-top: 5rem;
-        }
+    .left {
+      row-gap: 4rem;
+      button {
+        padding-block: 1rem;
+      }
+      p {
+        line-height: 2.6rem;
+      }
+      h2 {
+        font-size: 5rem;
+      }
     }
-    .mediabtn{
-        margin-top: 3rem;
-        column-gap: 2rem;
-
-        button{
-            padding-inline: 5rem;
-           padding-top: 2rem;
-           padding-bottom: 2.5rem;
-           font-weight: bolder;
-           font-size: large;
-        }
+    .right {
+      margin-top: 5rem;
     }
+  }
+  .mediabtn {
+    margin-top: 3rem;
+    column-gap: 2rem;
 
-    /* *******about section******* */
-.aboutsection{
+    button {
+      padding-inline: 5rem;
+      padding-top: 2rem;
+      padding-bottom: 2.5rem;
+      font-weight: bolder;
+      font-size: large;
+    }
+  }
+
+  /* *******about section******* */
+  .aboutsection {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100%;
 
-    .leftside{
-        width: 100%;
-        h2{
-            font-size: 2rem;
+    .leftside {
+      width: 100%;
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+      ul {
+        li {
+          font-size: 1.2rem;
         }
-        p{
-            font-size: 1.2rem;
-        }
-        ul{
-            li{
-            font-size: 1.2rem;
-
-            }
-        }
+      }
     }
-    .rightside{
+    .rightside {
+      width: 100%;
+      clip-path: margin-box;
+      img {
         width: 100%;
-        clip-path: margin-box;
-        img{
-            width: 100%;
-            transform: rotate(0deg);
-            border-radius: 1rem;
-        }
-
+        transform: rotate(0deg);
+        border-radius: 1rem;
+      }
     }
-}
-}
+  }
 
+  /* *************experience page************* */
+  .containerexperience {
+    margin-top: 0rem;
+    padding-block: 5rem;
+    border-radius: 0.2rem;
 
+    .mainheadding {
+      font-size: 6rem;
+    }
 
-/* surface pro 7 */
-@media screen and (width: 912px) and (height: 1368px) { 
-    
-    .herosection{
-        display: flex;
-        flex-direction: column;
-        margin-top: 7rem;
+    .certificationsection {
+      .leftside {
+        h2 {
+          font-size: 3rem;
+        }
+        
+      }
+      .rightside{
+        .box{
+            ul{
+                font-size: 1.5rem;
+                color: black;
 
-        .left{
-            row-gap: 4rem;
-            button{
-                padding-block: 1rem;
-            }
-            p{
-                line-height: 2.6rem;
+                li{
+                    line-height: 2rem;
+                }
             }
             h2{
-                font-size: 5rem;
-            }
-        }
-        .right{
-            margin-top: 5rem;
-        }
-    }
-    .mediabtn{
-        margin-top: 3rem;
-        column-gap: 2rem;
-
-        button{
-            padding-inline: 5rem;
-           padding-top: 2rem;
-           padding-bottom: 2.5rem;
-           font-weight: bolder;
-           font-size: large;
-        }
-    }
-}
-
-
-
-
-/* surface Duo */
-@media screen and (width: 540px) and (height: 720px) { 
-    
-    .herosection{
-        margin-top: 2rem;
-    }
-    .mediabtn{
-        margin-top: 1.8rem;
-        column-gap: 2rem;
-        padding-bottom: 2rem;
-
-        button{
-            padding-inline: 3rem;
-            padding-block: 1rem;
-        }
-    }
-}
-
-
-
-
-/* Glaxy Z Fold 5*/
-@media screen and (width: 344px) and (height: 882px) { 
-    
-    .herosection{
-        button{
-            padding-inline: 6rem;
-        }
-    }
-    .mediabtn{
-        margin-top: 1.5rem;
-        column-gap: 1rem;
-        padding-bottom: 2rem;
-
-        button{
-            padding-inline: 3rem;
-            padding-block: 1rem;
-        }
-    }
-}
-
-
-/* Asus Zenbook Fold */
-@media screen and (width: 853px) and (height: 1280px) { 
-    
-    .herosection{
-        margin-top: 6rem;
-        .left{
-            row-gap: 3rem;
-            
-            p{
-                line-height: 2.5rem;
-                font-size: 1.5rem;
-            }
-            button{
-                padding-block: 1rem;
-                font-weight: bold;
                 font-size: 2rem;
             }
         }
-
-        .right{
-            margin-top: 3rem;
-        }
+        
+      }
     }
-    .mediabtn{
-        margin-top: 3rem;
-        column-gap: 2rem;
-
-        button{
-            padding-inline: 3rem;
-            padding-top: 2rem;
-           padding-bottom: 2.5rem;
-           font-weight: bolder;
-           font-size: large;
-        }
-    }
+  }
 }
 
+/* surface pro 7 */
+@media screen and (width: 912px) and (height: 1368px) {
+  .herosection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
 
+    .left {
+      row-gap: 4rem;
+      button {
+        padding-block: 1rem;
+      }
+      p {
+        line-height: 2.6rem;
+      }
+      h2 {
+        font-size: 5rem;
+      }
+    }
+    .right {
+      margin-top: 5rem;
+    }
+  }
+  .mediabtn {
+    margin-top: 3rem;
+    column-gap: 2rem;
+
+    button {
+      padding-inline: 5rem;
+      padding-top: 2rem;
+      padding-bottom: 2.5rem;
+      font-weight: bolder;
+      font-size: large;
+    }
+  }
+
+
+
+  /* *************experience page************* */
+  .containerexperience {
+    margin-top: 0rem;
+    padding-block: 5rem;
+    border-radius: 0.2rem;
+
+    .mainheadding {
+      font-size: 6rem;
+    }
+
+    .certificationsection {
+      .leftside {
+        h2 {
+          font-size: 3rem;
+        }
+        
+      }
+      .rightside{
+        .box{
+            ul{
+                font-size: 1.5rem;
+                color: black;
+
+                li{
+                    line-height: 2rem;
+                }
+            }
+            h2{
+                font-size: 2rem;
+            }
+        }
+        
+      }
+    }
+  }
+}
+
+/* surface Duo */
+@media screen and (width: 540px) and (height: 720px) {
+  .herosection {
+    margin-top: 2rem;
+  }
+  .mediabtn {
+    margin-top: 1.8rem;
+    column-gap: 2rem;
+    padding-bottom: 2rem;
+
+    button {
+      padding-inline: 3rem;
+      padding-block: 1rem;
+    }
+  }
+}
+
+/* Glaxy Z Fold 5*/
+@media screen and (width: 344px) and (height: 882px) {
+  .herosection {
+    button {
+      padding-inline: 6rem;
+    }
+  }
+  .mediabtn {
+    margin-top: 1.5rem;
+    column-gap: 1rem;
+    padding-bottom: 2rem;
+
+    button {
+      padding-inline: 3rem;
+      padding-block: 1rem;
+    }
+  }
+}
+
+/* Asus Zenbook Fold */
+@media screen and (width: 853px) and (height: 1280px) {
+  .herosection {
+    margin-top: 6rem;
+    .left {
+      row-gap: 3rem;
+
+      p {
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+      }
+      button {
+        padding-block: 1rem;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+    }
+
+    .right {
+      margin-top: 3rem;
+    }
+  }
+  .mediabtn {
+    margin-top: 3rem;
+    column-gap: 2rem;
+
+    button {
+      padding-inline: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 2.5rem;
+      font-weight: bolder;
+      font-size: large;
+    }
+  }
+
+  /* *************experience page************* */
+  .containerexperience {
+    margin-top: 0rem;
+    padding-block: 5rem;
+    border-radius: 0.2rem;
+
+    .mainheadding {
+      font-size: 6rem;
+    }
+
+    .certificationsection {
+      .leftside {
+        h2 {
+          font-size: 3rem;
+        }
+        
+      }
+      .rightside{
+        .box{
+            ul{
+                font-size: 1.5rem;
+                color: black;
+
+                li{
+                    line-height: 2.5rem;
+                }
+            }
+            h2{
+                font-size: 2rem;
+            }
+        }
+        
+      }
+    }
+  }
+}
 
 /* Nest Hub */
-@media screen and (width: 1024px) and (height: 600px) { 
-    
-    .right{
-        padding-right: 2rem;
-    }
-    .mediabtn{
-        padding-bottom: 2rem;
-    }
+@media screen and (width: 1024px) and (height: 600px) {
+  .right {
+    padding-right: 2rem;
+  }
+  .mediabtn {
+    padding-bottom: 2rem;
+  }
 }
-
 
 /* Nest Hub Max*/
-@media screen and (width: 1280px) and (height: 800px) { 
-    
-    .herosection{
-        margin-top: 5rem;
-    }
+@media screen and (width: 1280px) and (height: 800px) {
+  .herosection {
+    margin-top: 5rem;
+  }
 
-    .left{
-        p{
-            line-height: 3rem;
-        }
-        button{
-            padding-block: 0.8rem;
-            padding-inline: 3.3rem;
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
+  .left {
+    p {
+      line-height: 3rem;
     }
-    .right{
-        padding-right: 2rem;
+    button {
+      padding-block: 0.8rem;
+      padding-inline: 3.3rem;
+      font-weight: bold;
+      font-size: 1.5rem;
     }
-    .mediabtn{
-        padding-bottom: 2rem;
+  }
+  .right {
+    padding-right: 2rem;
+  }
+  .mediabtn {
+    padding-bottom: 2rem;
 
-        button{
-            padding-inline: 3rem;
-            padding-top: 1.3rem;
-           padding-bottom: 2.5rem;
-           font-weight: bolder;
-           font-size: large;
-        }
+    button {
+      padding-inline: 3rem;
+      padding-top: 1.3rem;
+      padding-bottom: 2.5rem;
+      font-weight: bolder;
+      font-size: large;
     }
+  }
 
-
-    /* about section */
-.containerabout{
+  /* about section */
+  .containerabout {
     margin-top: 4rem;
-    
+  }
+  .aboutsection {
+    height: auto;
+    border-radius: 2rem;
+  }
 }
-    .aboutsection{
-        height: auto;
-        border-radius: 2rem;
-
-        
-    }
-}
-
-
-
-
-
-
-
-
 
 /* .aboutsection{
     .leftside{
@@ -367,37 +444,25 @@ html{
     }
 } */
 
-
-
-
-
-
-
-
-
-
-
-
 /* contact form page  */
 
 .custom-shape-divider-bottom-1734087681 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1734087681 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
 }
 
 .custom-shape-divider-bottom-1734087681 .shape-fill {
-    fill: #5F10E0;
+  fill: #5f10e0;
 }
-

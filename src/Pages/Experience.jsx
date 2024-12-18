@@ -4,8 +4,8 @@ function Experience() {
     return (
         <>
 
-            <div className="containercertification  lg:max-w-[75rem] lg:m-auto h-auto bg-lime-100 lg:rounded-lg ... p-5 text-center lg:mt-10 lg:mb-5">
-                <h2 className='text-5xl font-bold  duration-500 hover:underline '>Experience</h2>
+            <div className="containerexperience  lg:max-w-[75rem] lg:m-auto h-auto bg-lime-100 lg:rounded-lg ... p-5 text-center lg:mt-10 lg:mb-5">
+                <h2 className='mainheadding text-5xl font-bold  duration-500 hover:underline '>Experience</h2>
 
 
 
